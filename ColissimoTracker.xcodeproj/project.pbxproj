@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554F0546A08A03121CB987E2 /* libPods-ColissimoTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B02E41B44128F79594A6A8 /* libPods-ColissimoTrackerTests.a */; };
+		BC247C651AECBC9D00BECC06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C641AECBC9D00BECC06 /* main.m */; };
+		BC247C681AECBC9D00BECC06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C671AECBC9D00BECC06 /* AppDelegate.m */; };
+		BC247C6E1AECBC9D00BECC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC247C6C1AECBC9D00BECC06 /* Main.storyboard */; };
+		BC247C701AECBC9D00BECC06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC247C6F1AECBC9D00BECC06 /* Images.xcassets */; };
+		BC247C731AECBC9D00BECC06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC247C711AECBC9D00BECC06 /* LaunchScreen.xib */; };
+		BC247C8A1AECBCC600BECC06 /* TrackerDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C891AECBCC600BECC06 /* TrackerDownloader.m */; };
+		BC247C8B1AECBCC600BECC06 /* TrackerDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C891AECBCC600BECC06 /* TrackerDownloader.m */; };
+		BC247C8D1AECBCD900BECC06 /* TrackerDownloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C8C1AECBCD900BECC06 /* TrackerDownloaderTests.m */; };
+		BC247C8F1AECD39400BECC06 /* TrackerParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C8E1AECD39400BECC06 /* TrackerParserTests.m */; };
+		BC247C921AECD55400BECC06 /* TrackerParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C911AECD55400BECC06 /* TrackerParser.m */; };
+		BC247C931AECD55400BECC06 /* TrackerParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C911AECD55400BECC06 /* TrackerParser.m */; };
+		BC247C991AECD9C600BECC06 /* TrackingStatusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C981AECD9C600BECC06 /* TrackingStatusTests.m */; };
+		BC247C9C1AECDA8D00BECC06 /* TrackingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C9B1AECDA8D00BECC06 /* TrackingStatus.m */; };
+		BC247C9D1AECDA8D00BECC06 /* TrackingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C9B1AECDA8D00BECC06 /* TrackingStatus.m */; };
+		BC247C9F1AECEC0600BECC06 /* TrackerTableViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247C9E1AECEC0600BECC06 /* TrackerTableViewControllerTests.m */; };
+		BC247CA21AECECA400BECC06 /* TrackerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247CA11AECECA400BECC06 /* TrackerTableViewController.m */; };
+		BC247CA31AECECA400BECC06 /* TrackerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247CA11AECECA400BECC06 /* TrackerTableViewController.m */; };
+		BC247CA51AECED5F00BECC06 /* TrackerTableViewCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247CA41AECED5F00BECC06 /* TrackerTableViewCellTests.m */; };
+		BC247CA81AECEDC500BECC06 /* TrackerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247CA71AECEDC500BECC06 /* TrackerTableViewCell.m */; };
+		BC247CA91AECEDC500BECC06 /* TrackerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC247CA71AECEDC500BECC06 /* TrackerTableViewCell.m */; };
+		BC247CAB1AECF42200BECC06 /* TrackerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC247CAA1AECF42200BECC06 /* TrackerTableViewCell.xib */; };
+		BC247CAC1AECF42200BECC06 /* TrackerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC247CAA1AECF42200BECC06 /* TrackerTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC247C791AECBC9D00BECC06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC247C571AECBC9D00BECC06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC247C5E1AECBC9D00BECC06;
+			remoteInfo = ColissimoTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		355754455529AF6AFE5B8BC8 /* Pods-ColissimoTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColissimoTrackerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColissimoTrackerTests/Pods-ColissimoTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72B02E41B44128F79594A6A8 /* libPods-ColissimoTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColissimoTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC247C5F1AECBC9D00BECC06 /* ColissimoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColissimoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC247C631AECBC9D00BECC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC247C641AECBC9D00BECC06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC247C661AECBC9D00BECC06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC247C671AECBC9D00BECC06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC247C6D1AECBC9D00BECC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC247C6F1AECBC9D00BECC06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC247C721AECBC9D00BECC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC247C781AECBC9D00BECC06 /* ColissimoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColissimoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC247C7D1AECBC9D00BECC06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC247C881AECBCC600BECC06 /* TrackerDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerDownloader.h; sourceTree = "<group>"; };
+		BC247C891AECBCC600BECC06 /* TrackerDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerDownloader.m; sourceTree = "<group>"; };
+		BC247C8C1AECBCD900BECC06 /* TrackerDownloaderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerDownloaderTests.m; sourceTree = "<group>"; };
+		BC247C8E1AECD39400BECC06 /* TrackerParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerParserTests.m; sourceTree = "<group>"; };
+		BC247C901AECD55400BECC06 /* TrackerParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerParser.h; sourceTree = "<group>"; };
+		BC247C911AECD55400BECC06 /* TrackerParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerParser.m; sourceTree = "<group>"; };
+		BC247C981AECD9C600BECC06 /* TrackingStatusTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingStatusTests.m; sourceTree = "<group>"; };
+		BC247C9A1AECDA8D00BECC06 /* TrackingStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingStatus.h; sourceTree = "<group>"; };
+		BC247C9B1AECDA8D00BECC06 /* TrackingStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingStatus.m; sourceTree = "<group>"; };
+		BC247C9E1AECEC0600BECC06 /* TrackerTableViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerTableViewControllerTests.m; sourceTree = "<group>"; };
+		BC247CA01AECECA400BECC06 /* TrackerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerTableViewController.h; sourceTree = "<group>"; };
+		BC247CA11AECECA400BECC06 /* TrackerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerTableViewController.m; sourceTree = "<group>"; };
+		BC247CA41AECED5F00BECC06 /* TrackerTableViewCellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerTableViewCellTests.m; sourceTree = "<group>"; };
+		BC247CA61AECEDC500BECC06 /* TrackerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackerTableViewCell.h; sourceTree = "<group>"; };
+		BC247CA71AECEDC500BECC06 /* TrackerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackerTableViewCell.m; sourceTree = "<group>"; };
+		BC247CAA1AECF42200BECC06 /* TrackerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackerTableViewCell.xib; sourceTree = "<group>"; };
+		C643148FEDFB574A9C02DB66 /* Pods-ColissimoTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColissimoTrackerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColissimoTrackerTests/Pods-ColissimoTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC247C5C1AECBC9D00BECC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC247C751AECBC9D00BECC06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554F0546A08A03121CB987E2 /* libPods-ColissimoTrackerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ECB8B050200D3159AA25C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72B02E41B44128F79594A6A8 /* libPods-ColissimoTrackerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC247C561AECBC9D00BECC06 = {
+			isa = PBXGroup;
+			children = (
+				BC247C611AECBC9D00BECC06 /* ColissimoTracker */,
+				BC247C7B1AECBC9D00BECC06 /* ColissimoTrackerTests */,
+				BC247C601AECBC9D00BECC06 /* Products */,
+				F68CD48E25AAE2FC184646AC /* Pods */,
+				0ECB8B050200D3159AA25C59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC247C601AECBC9D00BECC06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C5F1AECBC9D00BECC06 /* ColissimoTracker.app */,
+				BC247C781AECBC9D00BECC06 /* ColissimoTrackerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC247C611AECBC9D00BECC06 /* ColissimoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				BCC609061AEDF8F10062DC34 /* Classes */,
+				BCC6090C1AEDF9570062DC34 /* Resources */,
+			);
+			path = ColissimoTracker;
+			sourceTree = "<group>";
+		};
+		BC247C621AECBC9D00BECC06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C631AECBC9D00BECC06 /* Info.plist */,
+				BC247C641AECBC9D00BECC06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC247C7B1AECBC9D00BECC06 /* ColissimoTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCC6090D1AEDF9670062DC34 /* Classes */,
+				BCC6090E1AEDF96D0062DC34 /* Resources */,
+			);
+			path = ColissimoTrackerTests;
+			sourceTree = "<group>";
+		};
+		BC247C7C1AECBC9D00BECC06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C7D1AECBC9D00BECC06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC609061AEDF8F10062DC34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCC609071AEDF8F60062DC34 /* Application */,
+				BCC609081AEDF9020062DC34 /* Controller */,
+				BCC609091AEDF91A0062DC34 /* View */,
+				BCC6090A1AEDF92C0062DC34 /* Model */,
+				BCC6090B1AEDF9410062DC34 /* Services */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BCC609071AEDF8F60062DC34 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C661AECBC9D00BECC06 /* AppDelegate.h */,
+				BC247C671AECBC9D00BECC06 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		BCC609081AEDF9020062DC34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C6C1AECBC9D00BECC06 /* Main.storyboard */,
+				BC247CA01AECECA400BECC06 /* TrackerTableViewController.h */,
+				BC247CA11AECECA400BECC06 /* TrackerTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BCC609091AEDF91A0062DC34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC247CA61AECEDC500BECC06 /* TrackerTableViewCell.h */,
+				BC247CA71AECEDC500BECC06 /* TrackerTableViewCell.m */,
+				BC247CAA1AECF42200BECC06 /* TrackerTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BCC6090A1AEDF92C0062DC34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C9A1AECDA8D00BECC06 /* TrackingStatus.h */,
+				BC247C9B1AECDA8D00BECC06 /* TrackingStatus.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BCC6090B1AEDF9410062DC34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C881AECBCC600BECC06 /* TrackerDownloader.h */,
+				BC247C891AECBCC600BECC06 /* TrackerDownloader.m */,
+				BC247C901AECD55400BECC06 /* TrackerParser.h */,
+				BC247C911AECD55400BECC06 /* TrackerParser.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		BCC6090C1AEDF9570062DC34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C6F1AECBC9D00BECC06 /* Images.xcassets */,
+				BC247C711AECBC9D00BECC06 /* LaunchScreen.xib */,
+				BC247C621AECBC9D00BECC06 /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BCC6090D1AEDF9670062DC34 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCC6090F1AEDF9800062DC34 /* Controller */,
+				BCC609101AEDF9870062DC34 /* View */,
+				BCC609121AEDF99A0062DC34 /* Model */,
+				BCC609111AEDF9950062DC34 /* Services */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		BCC6090E1AEDF96D0062DC34 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C7C1AECBC9D00BECC06 /* Supporting Files */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BCC6090F1AEDF9800062DC34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C9E1AECEC0600BECC06 /* TrackerTableViewControllerTests.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BCC609101AEDF9870062DC34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BC247CA41AECED5F00BECC06 /* TrackerTableViewCellTests.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BCC609111AEDF9950062DC34 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C8C1AECBCD900BECC06 /* TrackerDownloaderTests.m */,
+				BC247C8E1AECD39400BECC06 /* TrackerParserTests.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		BCC609121AEDF99A0062DC34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC247C981AECD9C600BECC06 /* TrackingStatusTests.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F68CD48E25AAE2FC184646AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				355754455529AF6AFE5B8BC8 /* Pods-ColissimoTrackerTests.debug.xcconfig */,
+				C643148FEDFB574A9C02DB66 /* Pods-ColissimoTrackerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC247C5E1AECBC9D00BECC06 /* ColissimoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC247C821AECBC9D00BECC06 /* Build configuration list for PBXNativeTarget "ColissimoTracker" */;
+			buildPhases = (
+				BC247C5B1AECBC9D00BECC06 /* Sources */,
+				BC247C5C1AECBC9D00BECC06 /* Frameworks */,
+				BC247C5D1AECBC9D00BECC06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColissimoTracker;
+			productName = ColissimoTracker;
+			productReference = BC247C5F1AECBC9D00BECC06 /* ColissimoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC247C771AECBC9D00BECC06 /* ColissimoTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC247C851AECBC9D00BECC06 /* Build configuration list for PBXNativeTarget "ColissimoTrackerTests" */;
+			buildPhases = (
+				99549E5D4033EE584DAC17E9 /* Check Pods Manifest.lock */,
+				BC247C741AECBC9D00BECC06 /* Sources */,
+				BC247C751AECBC9D00BECC06 /* Frameworks */,
+				BC247C761AECBC9D00BECC06 /* Resources */,
+				B458B49D886A993572032157 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC247C7A1AECBC9D00BECC06 /* PBXTargetDependency */,
+			);
+			name = ColissimoTrackerTests;
+			productName = ColissimoTrackerTests;
+			productReference = BC247C781AECBC9D00BECC06 /* ColissimoTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC247C571AECBC9D00BECC06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Nicolas Bichon";
+				TargetAttributes = {
+					BC247C5E1AECBC9D00BECC06 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BC247C771AECBC9D00BECC06 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = BC247C5E1AECBC9D00BECC06;
+					};
+				};
+			};
+			buildConfigurationList = BC247C5A1AECBC9D00BECC06 /* Build configuration list for PBXProject "ColissimoTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC247C561AECBC9D00BECC06;
+			productRefGroup = BC247C601AECBC9D00BECC06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC247C5E1AECBC9D00BECC06 /* ColissimoTracker */,
+				BC247C771AECBC9D00BECC06 /* ColissimoTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC247C5D1AECBC9D00BECC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC247CAB1AECF42200BECC06 /* TrackerTableViewCell.xib in Resources */,
+				BC247C6E1AECBC9D00BECC06 /* Main.storyboard in Resources */,
+				BC247C731AECBC9D00BECC06 /* LaunchScreen.xib in Resources */,
+				BC247C701AECBC9D00BECC06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC247C761AECBC9D00BECC06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC247CAC1AECF42200BECC06 /* TrackerTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99549E5D4033EE584DAC17E9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B458B49D886A993572032157 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColissimoTrackerTests/Pods-ColissimoTrackerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC247C5B1AECBC9D00BECC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC247C9C1AECDA8D00BECC06 /* TrackingStatus.m in Sources */,
+				BC247C8A1AECBCC600BECC06 /* TrackerDownloader.m in Sources */,
+				BC247C921AECD55400BECC06 /* TrackerParser.m in Sources */,
+				BC247CA21AECECA400BECC06 /* TrackerTableViewController.m in Sources */,
+				BC247C681AECBC9D00BECC06 /* AppDelegate.m in Sources */,
+				BC247C651AECBC9D00BECC06 /* main.m in Sources */,
+				BC247CA81AECEDC500BECC06 /* TrackerTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC247C741AECBC9D00BECC06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC247C9D1AECDA8D00BECC06 /* TrackingStatus.m in Sources */,
+				BC247C991AECD9C600BECC06 /* TrackingStatusTests.m in Sources */,
+				BC247C8B1AECBCC600BECC06 /* TrackerDownloader.m in Sources */,
+				BC247C8F1AECD39400BECC06 /* TrackerParserTests.m in Sources */,
+				BC247CA51AECED5F00BECC06 /* TrackerTableViewCellTests.m in Sources */,
+				BC247C9F1AECEC0600BECC06 /* TrackerTableViewControllerTests.m in Sources */,
+				BC247CA91AECEDC500BECC06 /* TrackerTableViewCell.m in Sources */,
+				BC247CA31AECECA400BECC06 /* TrackerTableViewController.m in Sources */,
+				BC247C8D1AECBCD900BECC06 /* TrackerDownloaderTests.m in Sources */,
+				BC247C931AECD55400BECC06 /* TrackerParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC247C7A1AECBC9D00BECC06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC247C5E1AECBC9D00BECC06 /* ColissimoTracker */;
+			targetProxy = BC247C791AECBC9D00BECC06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC247C6C1AECBC9D00BECC06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC247C6D1AECBC9D00BECC06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC247C711AECBC9D00BECC06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC247C721AECBC9D00BECC06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC247C801AECBC9D00BECC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC247C811AECBC9D00BECC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC247C831AECBC9D00BECC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColissimoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC247C841AECBC9D00BECC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColissimoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC247C861AECBC9D00BECC06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 355754455529AF6AFE5B8BC8 /* Pods-ColissimoTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColissimoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColissimoTracker.app/ColissimoTracker";
+			};
+			name = Debug;
+		};
+		BC247C871AECBC9D00BECC06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C643148FEDFB574A9C02DB66 /* Pods-ColissimoTrackerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColissimoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColissimoTracker.app/ColissimoTracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC247C5A1AECBC9D00BECC06 /* Build configuration list for PBXProject "ColissimoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC247C801AECBC9D00BECC06 /* Debug */,
+				BC247C811AECBC9D00BECC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC247C821AECBC9D00BECC06 /* Build configuration list for PBXNativeTarget "ColissimoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC247C831AECBC9D00BECC06 /* Debug */,
+				BC247C841AECBC9D00BECC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC247C851AECBC9D00BECC06 /* Build configuration list for PBXNativeTarget "ColissimoTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC247C861AECBC9D00BECC06 /* Debug */,
+				BC247C871AECBC9D00BECC06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC247C571AECBC9D00BECC06 /* Project object */;
+}

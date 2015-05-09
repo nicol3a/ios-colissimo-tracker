@@ -10,6 +10,7 @@ My goal is to share an example of how an iOS app can be unit tested. I do not pl
 ### How do I get set up? ###
 
 Just download the project, open it and launch the tests (Product > Test or Cmd+U).
+
 If you want to use it for your own tracking ID, change the **tracking ID** in the **TrackerTableViewController.m** file, at **line 37** and you're good to go.
 
 ### Credits ###

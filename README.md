@@ -1,4 +1,4 @@
-# Colissimo Tracker #
+# Colissimo Tracker for iOS #
 
 Colissimo Tracker is a very simple app to track the delivery of a package with Colissimo (a french post service).
 This is the first app I developed using the TDD approach, after reading [Test-Driven iOS Development](http://www.amazon.com/Test-Driven-iOS-Development-Developers-Library/dp/0321774183) written by Graham Lee.
